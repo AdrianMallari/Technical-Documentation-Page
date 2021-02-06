@@ -1,0 +1,65 @@
+#navbar header {
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+#logo {
+    width: 100px;
+    margin-left: 30%;
+}
+#navbar {
+    border-right: 1px solid white;
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    top: 0px;
+    left: 0px;
+}
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#navbar li {
+    border-top: 1px solid white;
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+#navbar a{
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#navbar a:hover {
+    background: white;
+    color: black;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+section {
+    display: block;
+    margin-bottom: 20px;
+}
+p {
+    display: block;
+    margin: 20px;
+}
+.main-section header{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+code {
+    background: rgb(49, 49, 49);
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    padding: 10px;
+}
