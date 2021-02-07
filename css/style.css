@@ -9,12 +9,3 @@
     margin-left: 30px;
     background: rgb(49, 49, 49);
 }
-#toggle {
-}
-#toggle-box {
-    cursor: pointer;
-}
-#toggle-box:checked + *{
-    background: white !important; 
-    color: black !important;
-}
